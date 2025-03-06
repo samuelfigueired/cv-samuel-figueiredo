@@ -1,0 +1,87 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Layout geral */
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Coluna esquerda (Informações pessoais e habilidades) */
+.left-column {
+    width: 35%;
+    background: #f0f8ff;
+    padding: 20px;
+    text-align: center;
+    border-right: 2px solid #005f73;
+}
+
+/* Redes Sociais styles */
+.social-media {
+    margin-top: 20px;
+    text-align: left; /* Align social media section to the left */
+}
+
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #005f73;
+    margin-bottom: 10px;
+}
+
+.left-column h3 {
+    margin-top: 15px;
+    font-size: 1.2em;
+    border-bottom: 2px solid #005f73;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.contact, .skills {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.skills ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.skills li {
+    padding: 5px 0;
+}
+
+/* Coluna direita (Experiência e formação) */
+.right-column {
+    width: 65%;
+    padding: 30px;
+}
+
+.right-column h1 {
+    font-size: 2em;
+    color: #005f73;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.right-column h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    border-bottom: 2px solid #005f73;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.job, .degree {
+    margin-top: 15px;
+}
